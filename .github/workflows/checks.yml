@@ -6,7 +6,7 @@ on: [push]
 jobs:
   test-lint:
     name: Test and Lint
-    runs-on: ububtu-20.04
+    runs-on: ububtu-latest
     steps:
       - name: Login to Docker Hub
         uses: docker/login-actions@v1
